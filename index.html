@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Movie Search</h1>
+        <div class="search-wrapper">
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search for a movie..."
+            aria-label="Search for a movie"
+          />
+          <button id="searchBtn">Search</button>
+        </div>
+      </header>
+
+      <div id="status" class="status" aria-live="polite"></div>
+
+      <main class="main-content">
+        <section id="movieGrid" class="movie-grid" aria-live="polite"></section>
+
+        <aside id="movieDetails" class="movie-details">
+          <div class="placeholder">
+            <h2>Select a movie</h2>
+            <p>Choose a movie card to see more details here.</p>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
