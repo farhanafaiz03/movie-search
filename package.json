@@ -1,0 +1,8 @@
+{
+  "name": "movie-search-app",
+  "private": true,
+  "scripts": {
+    "dev": "npx vercel dev",
+    "deploy": "npx vercel --prod"
+  }
+}
